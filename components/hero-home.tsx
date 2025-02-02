@@ -26,9 +26,7 @@ export default function HeroHome() {
     <section className="relative">
       <PageIllustration />
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        {/* Hero content */}
         <div className="pb-12 pt-32 md:pb-5 md:pt-40">
-          {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
             <div
               className="mb-6 border-y [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]"
@@ -41,7 +39,8 @@ export default function HeroHome() {
                   style={{height: "32px"}}
                   width={32}
                   height={32}
-                  alt="Avatar 01"
+                  alt="Chrome Logo"
+                  loading="lazy"
                 />
                 <Image
                     className="box-content rounded-full border-2 border-gray-50 bg-white"
@@ -49,7 +48,8 @@ export default function HeroHome() {
                     style={{height: "32px"}}
                     width={32}
                     height={32}
-                    alt="Avatar 04"
+                    alt="Edge Logo"
+                    loading="lazy"
                 />
                 <Image
                   className="box-content rounded-full border-2 border-gray-50 bg-white"
@@ -57,7 +57,8 @@ export default function HeroHome() {
                   style={{height: "32px"}}
                   width={32}
                   height={32}
-                  alt="Avatar 02"
+                  alt="Firefox Logo"
+                  loading="lazy"
                 />
                 <Image
                     className="box-content rounded-full border-2 border-gray-50 bg-white"
@@ -65,7 +66,8 @@ export default function HeroHome() {
                     style={{height: "32px"}}
                     width={32}
                     height={32}
-                    alt="Avatar 02"
+                    alt="Brave Logo"
+                    loading="lazy"
                 />
                 <Image
                   className="box-content rounded-full border-2 border-gray-50 bg-white"
@@ -73,7 +75,8 @@ export default function HeroHome() {
                   style={{height: "32px"}}
                   width={32}
                   height={32}
-                  alt="Avatar 03"
+                  alt="Arc Logo"
+                  loading="lazy"
                 />
                 <Image
                     className="box-content rounded-full border-2 border-gray-50 bg-white"
@@ -81,7 +84,8 @@ export default function HeroHome() {
                     style={{height: "32px"}}
                     width={32}
                     height={32}
-                    alt="Avatar 06"
+                    alt="Zen Logo"
+                    loading="lazy"
                 />
               </div>
             </div>
