@@ -111,7 +111,7 @@ export default function HeroHome() {
                   data-aos="zoom-y-out"
                   data-aos-delay={450}
                 >
-                  <a
+                  <a data-nosnippet={true}
                       className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                       href={browserConfig?.link} target="_blank" rel="noreferrer"
                   >
@@ -129,7 +129,6 @@ export default function HeroHome() {
               </div>
             </div>
           </div>
-          {/* Hero image */}
           <div
             className="mx-auto max-w-4xl"
           >
