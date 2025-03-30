@@ -94,7 +94,7 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Clarify AI<br  />
+              Clarify AI<br/>
               Your AI Assistant
             </h1>
             <div className="mx-auto max-w-3xl">
