@@ -12,7 +12,7 @@ const inter = Inter({
 export const metadata = {
     title: "YouTube Summary Extension - AI-powered Video Summarizer",
     description:
-        "Generate AI-powered summaries of YouTube videos instantly. Save time and get key insights quickly!",
+        "Generate AI-powered summaries of YouTube videos instantly.",
     keywords: [
         "YouTube summary",
         "YouTube Summary Extension",
@@ -46,7 +46,7 @@ export const metadata = {
         url: "https://clarify-ai.org/",
         title: "YouTube Summary Extension - AI-powered Video Summarizer",
         description:
-            "Generate AI-powered summaries of YouTube videos instantly. Save time and get key insights quickly!",
+            "Generate AI-powered summaries of YouTube videos instantly.",
         siteName: "YouTube Summary Extension",
         images: [
             {
@@ -88,7 +88,7 @@ export default function RootLayout({
                     "operatingSystem": "All",
                     "url": "https://clarify-ai.org/",
                     "image": "https://clarify-ai.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon128.33c1902a.png",
-                    "description": "Generate AI-powered summaries of YouTube videos instantly. Save time and get key insights quickly!",
+                    "description": "Generate AI-powered summaries of YouTube videos instantly.",
                     "sameAs": [
                         "https://chromewebstore.google.com/detail/youtube-summary-ai-with-g/ogihgbocgnbhhdcmcolhipjhkmkecpeg",
                         "https://addons.mozilla.org/en-US/firefox/addon/youtube-summary/",
