@@ -44,21 +44,37 @@ export const metadata = {
     openGraph: {
         type: "website",
         url: "https://clarify-ai.org/",
-        title: "YouTube Summary Extension - AI-powered Video Summarizer",
+        title: "Clarify AI - YouTube Summary Extension",
         description:
-            "Generate AI-powered summaries of YouTube videos instantly.",
-        siteName: "YouTube Summary Extension",
+            "Generate AI-powered summaries of YouTube videos instantly. Save time with our browser extension.",
+        siteName: "Clarify AI",
         images: [
             {
-                url: "https://clarify-ai.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon128.33c1902a.png",
-                width: 1200,
-                height: 630,
-                alt: "YouTube Summary Extension Preview",
+                url: "https://clarify-ai.org/images/og-image.png",
+                width: 1024,
+                height: 686,
+                alt: "Clarify AI - YouTube Summary Extension",
+                type: "image/png",
             },
         ],
+        locale: "en_US",
+        article: {
+            publishedTime: "2024-03-20T00:00:00.000Z",
+            modifiedTime: "2024-03-20T00:00:00.000Z",
+            authors: ["https://clarify-ai.org"],
+            tags: ["AI", "YouTube", "Productivity", "Browser Extension"],
+        },
     },
     twitter: {
         card: "summary_large_image",
+        title: "Clarify AI - YouTube Summary Extension",
+        description: "Generate AI-powered summaries of YouTube videos instantly. Save time with our browser extension.",
+        images: ["https://clarify-ai.org/images/og-image.png"],
+        creator: "@clarifyai",
+    },
+    telegram: {
+        channel: "@clarifyai",
+        site: "@clarifyai",
     },
 };
 
