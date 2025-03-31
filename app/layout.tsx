@@ -68,6 +68,7 @@ export const metadata: Metadata = {
         'og:image:width': '1024',
         'og:image:height': '686',
         'og:image:type': 'image/png',
+        'image': 'https://clarify-ai.org/images/og-image.png',
     }
 };
 
