@@ -1,9 +1,9 @@
 export const metadata = {
   title: "YouTube Summary Extension - AI-powered Video Summarizer",
-  description: "Generate AI-powered summaries of YouTube videos instantly. Save time and get key insights quickly!",
+  description: "Generate AI-powered summaries of YouTube videos instantly.",
   openGraph: {
     title: "YouTube Summary Extension - AI-powered Video Summarizer",
-    description: "Generate AI-powered summaries of YouTube videos instantly. Save time and get key insights quickly!",
+    description: "Generate AI-powered summaries of YouTube videos instantly.",
     type: "website",
     url: "https://clarify-ai.org",
   },
