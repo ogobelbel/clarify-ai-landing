@@ -13,14 +13,21 @@ export const metadata = {
   robots: {
     index: true,
     follow: true,
+    nocache: true,
     googleBot: {
       index: true,
       follow: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
+      noimageindex: true,
+      'notranslate': true,
     },
   },
+  other: {
+    'google': 'notranslate',
+    'format-detection': 'telephone=no'
+  }
 };
 
 import Hero from "@/components/hero-home";

@@ -93,7 +93,6 @@ export default function HeroHome() {
               className="mb-2 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
               data-aos="zoom-y-out"
               data-aos-delay={150}
-              data-nosnippet="true"
             >
               Clarify AI
             </h1>
@@ -101,7 +100,6 @@ export default function HeroHome() {
               className="mb-6 text-3xl font-semibold text-gray-700 md:text-4xl"
               data-aos="zoom-y-out"
               data-aos-delay={200}
-              data-nosnippet="true"
             >
               Your AI Assistant
             </h2>
@@ -110,7 +108,6 @@ export default function HeroHome() {
                 className="mb-8 text-lg text-gray-700"
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
-                data-nosnippet="true"
               >
                 One click. Instant YouTube summaries - quick, clean, effortless.
               </p>
