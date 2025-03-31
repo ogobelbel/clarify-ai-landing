@@ -50,7 +50,7 @@ export const metadata = {
         siteName: "Clarify AI",
         images: [
             {
-                url: "https://clarify-ai.org/images/og-image.png",
+                url: "/images/og-image.png",
                 width: 1024,
                 height: 686,
                 alt: "Clarify AI - YouTube Summary Extension",
@@ -69,7 +69,7 @@ export const metadata = {
         card: "summary_large_image",
         title: "Clarify AI - YouTube Summary Extension",
         description: "Generate AI-powered summaries of YouTube videos instantly. Save time with our browser extension.",
-        images: ["https://clarify-ai.org/images/og-image.png"],
+        images: ["/images/og-image.png"],
         creator: "@clarifyai",
     },
     telegram: {
