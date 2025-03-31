@@ -2,6 +2,7 @@ import "./css/style.css";
 
 import {Inter} from "next/font/google";
 import Script from "next/script";
+import {Metadata} from 'next';
 
 const inter = Inter({
     subsets: ["latin"],
@@ -9,7 +10,7 @@ const inter = Inter({
     display: "swap",
 });
 
-export const metadata = {
+export const metadata: Metadata = {
     title: "Clarify AI",
     description:
         "Generate AI-powered summaries of YouTube videos instantly.",
@@ -43,39 +44,31 @@ export const metadata = {
     },
     openGraph: {
         type: "website",
-        url: "https://clarify-ai.org/",
+        url: "https://clarify-ai.org",
         title: "Clarify AI - YouTube Summary Extension",
         description:
             "Generate AI-powered summaries of YouTube videos instantly. Save time with our browser extension.",
         siteName: "Clarify AI",
-        images: [
-            {
-                url: "/images/og-image.png",
-                width: 1024,
-                height: 686,
-                alt: "Clarify AI - YouTube Summary Extension",
-                type: "image/png",
-            },
-        ],
-        locale: "en_US",
-        article: {
-            publishedTime: "2024-03-20T00:00:00.000Z",
-            modifiedTime: "2024-03-20T00:00:00.000Z",
-            authors: ["https://clarify-ai.org"],
-            tags: ["AI", "YouTube", "Productivity", "Browser Extension"],
-        },
+        images: [{
+            url: "https://clarify-ai.org/images/og-image.png",
+            width: 1024,
+            height: 686,
+            alt: "Clarify AI - YouTube Summary Extension",
+        }],
     },
     twitter: {
         card: "summary_large_image",
         title: "Clarify AI - YouTube Summary Extension",
         description: "Generate AI-powered summaries of YouTube videos instantly. Save time with our browser extension.",
-        images: ["/images/og-image.png"],
+        images: ["https://clarify-ai.org/images/og-image.png"],
         creator: "@clarifyai",
     },
-    telegram: {
-        channel: "@clarifyai",
-        site: "@clarifyai",
-    },
+    other: {
+        'og:image': 'https://clarify-ai.org/images/og-image.png',
+        'og:image:width': '1024',
+        'og:image:height': '686',
+        'og:image:type': 'image/png',
+    }
 };
 
 export default function RootLayout({
