@@ -9,6 +9,11 @@ import Avatar05 from "@/public/images/edge_logo.png";
 import Avatar06 from "@/public/images/zen_logo.svg";
 import {getBrowserConfig} from "@/app/helpers";
 import {useEffect, useState} from "react";
+import dynamic from 'next/dynamic';
+
+const VideoPlayer = dynamic(() => import('./video-player'), {
+  ssr: false
+});
 
 export interface Browser {
   name: string;
@@ -138,15 +143,7 @@ export default function HeroHome() {
           <div
             className="mx-auto max-w-4xl"
           >
-            <video
-                loop
-                className={'rounded-2xl shadow-2xl'}
-                autoPlay={true}
-                muted={true}
-                width="100%"
-            >
-              <source src="/video/presentation-1080.mp4" type="video/mp4"/>
-            </video>
+            <VideoPlayer />
           </div>
         </div>
       </div>
