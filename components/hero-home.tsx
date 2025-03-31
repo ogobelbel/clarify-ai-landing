@@ -102,7 +102,7 @@ export default function HeroHome() {
               Clarify AI
             </h1>
             <h2
-              className="mb-6 text-3xl font-semibold text-gray-700 md:text-4xl"
+              className="mb-6 text-xl font-semibold text-gray-700 md:text-3xl"
               data-aos="zoom-y-out"
               data-aos-delay={200}
             >

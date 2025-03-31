@@ -22,17 +22,8 @@ export default function Header() {
                     <ul className="flex flex-1 items-center justify-end gap-3">
                         <li>
                             <Link
-                                referrerPolicy='no-referrer'
-                                href={'/privacy-policy'}
-                                className="btn-sm bg-white text-gray-800 shadow-current hover:bg-gray-50"
-                            >
-                                Privacy Policy
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                target={'_blank'}
-                                referrerPolicy='no-referrer'
+                                target="_blank"
+                                referrerPolicy="no-referrer"
                                 href={browserConfig?.link || ''}
                                 className="btn-sm bg-white text-gray-800 shadow-current hover:bg-gray-50"
                             >

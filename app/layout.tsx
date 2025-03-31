@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-    title: "YouTube Summary Extension - AI-powered Video Summarizer",
+    title: "Clarify AI",
     description:
         "Generate AI-powered summaries of YouTube videos instantly.",
     keywords: [
