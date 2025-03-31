@@ -1,6 +1,26 @@
 export const metadata = {
-  title: "Clarify AI",
-  description: "Clarify AI main gage",
+  title: "YouTube Summary Extension - AI-powered Video Summarizer",
+  description: "Generate AI-powered summaries of YouTube videos instantly. Save time and get key insights quickly!",
+  openGraph: {
+    title: "YouTube Summary Extension - AI-powered Video Summarizer",
+    description: "Generate AI-powered summaries of YouTube videos instantly. Save time and get key insights quickly!",
+    type: "website",
+    url: "https://clarify-ai.org",
+  },
+  alternates: {
+    canonical: "https://clarify-ai.org"
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 import Hero from "@/components/hero-home";

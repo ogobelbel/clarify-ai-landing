@@ -59,8 +59,6 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        site: "@yourTwitterHandle",
-        creator: "@yourTwitterHandle",
     },
 };
 
@@ -90,7 +88,7 @@ export default function RootLayout({
                     "operatingSystem": "All",
                     "url": "https://clarify-ai.org/",
                     "image": "https://clarify-ai.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ficon128.33c1902a.png",
-                    "description": "Generate AI-powered summaries of YouTube videos instantly.",
+                    "description": "Generate AI-powered summaries of YouTube videos instantly. Save time and get key insights quickly!",
                     "sameAs": [
                         "https://chromewebstore.google.com/detail/youtube-summary-ai-with-g/ogihgbocgnbhhdcmcolhipjhkmkecpeg",
                         "https://addons.mozilla.org/en-US/firefox/addon/youtube-summary/",
@@ -104,7 +102,21 @@ export default function RootLayout({
                     "author": {
                         "@type": "Person",
                         "name": "Alex"
-                    }
+                    },
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "0",
+                        "priceCurrency": "USD"
+                    },
+                    "featureList": [
+                        "Instant YouTube video summaries",
+                        "AI-powered content analysis",
+                        "Browser extension integration",
+                        "Multi-language support"
+                    ],
+                    "browserRequirements": "Requires JavaScript. Requires HTML5.",
+                    "softwareVersion": "1.0.0",
+                    "applicationSubCategory": "Productivity Software"
                 }),
             }}
         />

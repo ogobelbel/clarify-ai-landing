@@ -90,18 +90,27 @@ export default function HeroHome() {
               </div>
             </div>
             <h1
-              className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
+              className="mb-2 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
               data-aos="zoom-y-out"
               data-aos-delay={150}
+              data-nosnippet="true"
             >
-              Clarify AI<br/>
-              Your AI Assistant
+              Clarify AI
             </h1>
+            <h2
+              className="mb-6 text-3xl font-semibold text-gray-700 md:text-4xl"
+              data-aos="zoom-y-out"
+              data-aos-delay={200}
+              data-nosnippet="true"
+            >
+              Your AI Assistant
+            </h2>
             <div className="mx-auto max-w-3xl">
               <p
                 className="mb-8 text-lg text-gray-700"
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
+                data-nosnippet="true"
               >
                 One click. Instant YouTube summaries - quick, clean, effortless.
               </p>
@@ -117,7 +126,7 @@ export default function HeroHome() {
                   >
                     <span className="relative inline-flex items-center">
                         {browserConfig?.logo &&
-                            <Image src={browserConfig?.logo} width={24} height={24} alt="Avatar 01" className={"mr-2"}/>
+                            <Image src={browserConfig?.logo} width={24} height={24} alt={`${browserConfig?.name} Browser Logo`} className={"mr-2"}/>
                         }
                       Add to {browserConfig?.name} {" "}
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">

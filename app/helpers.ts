@@ -16,12 +16,10 @@ export const BrowserName = {
 
 export function isFirefoxBrowser() {
     const ua = navigator.userAgent;
-    console.log(/Firefox\//.test(ua))
     return /Firefox\//.test(ua);
 }
 
 export function isChromeBrowser() {
-    debugger
     const ua = navigator.userAgent;
     return /Chrome\//.test(ua);
 }
