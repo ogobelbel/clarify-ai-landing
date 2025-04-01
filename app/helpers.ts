@@ -25,7 +25,7 @@ export function isChromeBrowser() {
 }
 
 const EDGE_ADDON_LINK = "https://microsoftedge.microsoft.com/addons/detail/youtube-summary-ai-with-g/akjfbgldngciabajgkmmbdlhpkciffgc";
-const FIREFOX_ADDON_LINK = "https://addons.mozilla.org/en-US/firefox/addon/youtube-summary/";
+const FIREFOX_ADDON_LINK = "https://addons.mozilla.org/firefox/addon/clarify-ai/";
 const CHROME_ADDON_LINK = "https://chromewebstore.google.com/detail/youtube-summary-ai-with-g/ogihgbocgnbhhdcmcolhipjhkmkecpeg";
 
 export function getBrowserConfig(): Browser {
