@@ -1,7 +1,12 @@
-import {Browser} from "@/components/hero-home";
-import ChromeLogo from "@/public/images/chrome_logo.png";
-import FirefoxLogo from "@/public/images/firefox_logo.png";
-import EdgeLogo from "@/public/images/edge_logo.png";
+import ChromeIcon from "@/public/icons/chrome.svg";
+import FirefoxIcon from "@/public/icons/firefox.svg";
+import EdgeIcon from "@/public/icons/edge.svg";
+
+export interface Browser {
+  name: string;
+  link: string;
+  logo: string;
+}
 
 export function isEdgeBrowser() {
     const ua = navigator.userAgent;
@@ -33,19 +38,19 @@ export function getBrowserConfig(): Browser {
         return {
             name: BrowserName.Edge,
             link: EDGE_ADDON_LINK,
-            logo: EdgeLogo
+            logo: EdgeIcon
         };
     }
     if (isFirefoxBrowser()) {
         return {
             name: BrowserName.Firefox,
             link: FIREFOX_ADDON_LINK,
-            logo: FirefoxLogo
+            logo: FirefoxIcon
         };
     }
     return {
         name: BrowserName.Chrome,
         link: CHROME_ADDON_LINK,
-        logo: ChromeLogo
+        logo: ChromeIcon
     };
 }

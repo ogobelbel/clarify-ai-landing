@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MainLogo from "@/public/images/icon128.png";
+import MainLogo from "@/public/icons/logo.svg";
 import Image from "next/image";
 
 export default function Logo() {

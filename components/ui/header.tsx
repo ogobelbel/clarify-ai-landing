@@ -2,8 +2,7 @@
 import Logo from "./logo";
 import Link from "next/link";
 import {useEffect, useState} from "react";
-import {getBrowserConfig} from "@/app/helpers";
-import {Browser} from "@/components/hero-home";
+import {Browser, getBrowserConfig} from "@/app/helpers";
 
 export default function Header() {
     const [browserConfig, setBrowserConfig] = useState<Browser>();
